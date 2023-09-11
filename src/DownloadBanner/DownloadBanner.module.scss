@@ -1,0 +1,25 @@
+.container {
+    background-color: #18181b; 
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.downloadButton {
+    background: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    color: white;
+    transition: color 0.3s ease;
+
+    &:hover {
+        color: #ddd;
+    }
+
+    &:focus {
+        outline: none;
+    }
+}

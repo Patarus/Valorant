@@ -1,0 +1,46 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: black;
+}
+
+.logo {
+    height: 40px;
+    cursor: pointer;
+}
+
+.buttonsContainer {
+    display: flex;
+    gap: 10px;
+}
+
+.button {
+    padding: 10px 15px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+    &:hover {
+        background-color: #dc3d4b;
+    }
+}
+
+
+.playNow {
+    background-color: #dc3d4b;
+    color: black;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+    &:hover {
+        background-color: #ff6347;
+    }
+}

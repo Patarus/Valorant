@@ -1,0 +1,20 @@
+.baseButton {
+    background-color: #dc3d4b;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+    &:hover {
+        background-color: #ff6347;
+    }
+}
+
+.textWhite {
+    color: white;
+}
+
+.textBlack {
+    color: black;
+}
